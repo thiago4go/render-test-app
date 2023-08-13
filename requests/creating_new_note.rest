@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "VS Code Rest client is awesome",
+  "important": true
+}
+
+###
+
+POST http://localhost:3001/api/notes
+Content-Type: application/json
+
+{
+  "content": "Postman is a great tool for API development, but not easy",
+  "important": true
+}
